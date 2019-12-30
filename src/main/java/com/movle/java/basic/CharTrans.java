@@ -1,5 +1,13 @@
 package com.movle.java.basic;
 
+
+/*
+ * @Author Movle
+ * @Description TODO char转义字符
+ * @Date 5:04 下午 12/30/19
+ * @Param
+ * @return
+ **/
 public class CharTrans {
     public static void main(String[] args) {
         // 斜线在java语言中有转义功能，可以将普通t字符，转换成“制表符”
@@ -40,12 +48,6 @@ public class CharTrans {
 
         System.out.print(c5);
         System.out.print("day 换行符换行");
-
-
-
-
-
-
 
     }
 }
