@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/basic/ObjectParms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/basic/StaticClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +59,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.ObjectParms">
+  <component name="RunManager" selected="Application.StaticClass">
     <configuration name="CharTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.CharTrans" />
       <module name="Java_learning" />
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.HelloWorld" />
+    <configuration name="ObjectParms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.ObjectParms" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectParms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.ObjectParms" />
+    <configuration name="StaticClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.StaticClass" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticClass" />
         <item itemvalue="Application.ObjectParms" />
         <item itemvalue="Application.StudentObject" />
         <item itemvalue="Application.CharTrans" />
         <item itemvalue="Application.CharType" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,7 @@
       <updated>1577691607152</updated>
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
-      <workItem from="1578409587365" duration="4261000" />
+      <workItem from="1578409587365" duration="5305000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578418151481</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java值传递之引用数据类型传递">
+      <created>1578419124327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578419124327</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,48 +209,49 @@
     <MESSAGE value="char转义字符" />
     <MESSAGE value="增加注释模版" />
     <MESSAGE value="JAVA对象，类" />
-    <option name="LAST_COMMIT_MESSAGE" value="JAVA对象，类" />
+    <MESSAGE value="Java值传递之引用数据类型传递" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java值传递之引用数据类型传递" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="65" key="#Inspections/0.0.1280.800@0.0.1280.800" timestamp="1578415743379" />
-    <state x="376" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577696411377">
+    <state x="376" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578419942910">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="376" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.800@0.0.1280.800" timestamp="1577696411377" />
+    <state x="376" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.800@0.0.1280.800" timestamp="1578419942910" />
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577695906260">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1577695906260" />
-    <state x="223" y="2" key="CommitChangelistDialog2" timestamp="1578418151011">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578419124035">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578418151011" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578419059939">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578419124035" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578420304313">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578419059939" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578419059935">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578420304313" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578420304311">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578419059935" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578419059934">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578420304311" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578420304310">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578419059934" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578419059937">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578420304310" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578420304312">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578419059937" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1577696971036">
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578420304312" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1578419951340">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1577696971036" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578418183986">
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578419951340" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578419254630">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578418183986" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578419254630" />
   </component>
 </project>
