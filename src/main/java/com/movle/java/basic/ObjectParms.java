@@ -3,10 +3,10 @@ package com.movle.java.basic;
 /**
  * @ClassName ObjectParms
  * @MethodDesc: 参数传递之值传递
- * @Author macbook
+ * @Author Movle
  * @Date 1/8/20 1:37 上午
  * @Version 1.0
- * @Email ma342221@163.com
+ * @Email movle_xjk@foxmail.com
  **/
 
 

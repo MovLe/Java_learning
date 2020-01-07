@@ -3,10 +3,10 @@ package com.movle.java.basic;
 /**
  * @ClassName extendsClass
  * @MethodDesc: JAVA面向对象之继承
- * @Author macbook
+ * @Author Movle
  * @Date 1/8/20 2:11 上午
  * @Version 1.0
- * @Email ma342221@163.com
+ * @Email movle_xjk@foxmail.com
  **/
 
 

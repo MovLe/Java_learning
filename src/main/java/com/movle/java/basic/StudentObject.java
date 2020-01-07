@@ -3,10 +3,10 @@ package com.movle.java.basic;
 /**
  * @ClassName StudentObject
  * @MethodDesc: 普通类
- * @Author macbook
+ * @Author Movle
  * @Date 1/8/20 1:05 上午
  * @Version 1.0
- * @Email ma342221@163.com
+ * @Email movle_xjk@foxmail.com
  **/
 
 
