@@ -41,7 +41,7 @@ class superClass extends superSuperClass{
 
 }
 
-class subClass extends superClass{
+class subClass extends superClass {
     public void m3(){
         System.out.println("这是subClass中的m3方法");
     }
