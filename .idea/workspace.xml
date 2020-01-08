@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/LinkedListTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/addForTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/deleteIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/varyArgsTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,35 +64,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.LinkedListTest01">
-    <configuration name="IteraterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.IteraterTest" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.varyArgsTest01">
     <configuration name="LinkedListTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.LinkedListTest01" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.ListIterTest" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.ListMethod" />
+    <configuration name="addForTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.addForTest01" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deleteIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.deleteIteratorTest" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="varyArgsTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.varyArgsTest01" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.varyArgsTest01" />
+        <item itemvalue="Application.deleteIteratorTest" />
+        <item itemvalue="Application.addForTest01" />
         <item itemvalue="Application.LinkedListTest01" />
         <item itemvalue="Application.ListIteratorTest02" />
-        <item itemvalue="Application.ListIterTest" />
-        <item itemvalue="Application.ListMethod" />
-        <item itemvalue="Application.IteraterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +165,7 @@
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
       <workItem from="1578409587365" duration="8608000" />
-      <workItem from="1578450507684" duration="24394000" />
+      <workItem from="1578450507684" duration="25902000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -319,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578498225949</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Linkedlist的特殊用法">
+      <created>1578500285439</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578500285440</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +357,8 @@
     <MESSAGE value="添加list注释" />
     <MESSAGE value="List遍历时修改元素的问题，用ListIterator迭代器而不是Iterator" />
     <MESSAGE value="ListIterator的用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListIterator的用法" />
+    <MESSAGE value="Linkedlist的特殊用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linkedlist的特殊用法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -375,29 +385,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578498225644">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578500285084">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578498225644" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578500225329">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578500285084" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578502183780">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578500225329" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578502183780" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578495186289" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578500225327">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578502183778">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578500225327" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578502183778" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578495186285" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578500225324">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578502183775">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578500225324" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578502183775" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578495186281" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578500225328">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578502183779">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578500225328" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578502183779" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578495186287" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
