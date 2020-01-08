@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/CollectionTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/IteraterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movle/java/date/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/date/DateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +62,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.CollectionTest2">
-    <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.date.CalendarTest" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IteraterTest">
     <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.CollectionTest" />
       <module name="Java_learning" />
@@ -118,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IteraterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.IteraterTest" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringToDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.date.StringToDate" />
       <module name="Java_learning" />
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteraterTest" />
         <item itemvalue="Application.CollectionTest2" />
         <item itemvalue="Application.CollectionTest" />
         <item itemvalue="Application.StringToDate" />
         <item itemvalue="Application.DateTest" />
-        <item itemvalue="Application.CalendarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +163,7 @@
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
       <workItem from="1578409587365" duration="8608000" />
-      <workItem from="1578450507684" duration="18385000" />
+      <workItem from="1578450507684" duration="19503000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -280,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578479406008</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Collection集合">
+      <created>1578491336010</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578491336010</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +307,8 @@
     <MESSAGE value="增加注释解释酒店系统" />
     <MESSAGE value="数组扩容" />
     <MESSAGE value="Date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date" />
+    <MESSAGE value="Collection集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection集合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -330,37 +335,37 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578479405817">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578491335790">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578479405817" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578489926918">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578491335790" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578492570620">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578489926918" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578492570620" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578453563013" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578489926917">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578492570619">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578489926917" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578492570619" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578453563011" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578489926916">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578492570618">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578489926916" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578492570618" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578453563010" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578489926918">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578492570619">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578489926918" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578492570619" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578453563012" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578421241122" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578484553196">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578491349500">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578484553196" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578491349500" />
   </component>
 </project>
