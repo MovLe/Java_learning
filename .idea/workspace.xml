@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/ListIteratorTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/LinkedListTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +62,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.ListIteratorTest02">
-    <configuration name="CollectionTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.CollectionTest2" />
+  <component name="RunManager" selected="Application.LinkedListTest01">
+    <configuration name="IteraterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.IteraterTest" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteraterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.IteraterTest" />
+    <configuration name="LinkedListTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.LinkedListTest01" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTest01" />
         <item itemvalue="Application.ListIteratorTest02" />
         <item itemvalue="Application.ListIterTest" />
         <item itemvalue="Application.ListMethod" />
         <item itemvalue="Application.IteraterTest" />
-        <item itemvalue="Application.CollectionTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
       <workItem from="1578409587365" duration="8608000" />
-      <workItem from="1578450507684" duration="23652000" />
+      <workItem from="1578450507684" duration="24394000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578497578026</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ListIterator的用法">
+      <created>1578498225949</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578498225949</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +347,8 @@
     <MESSAGE value="List集合中特有的方法" />
     <MESSAGE value="添加list注释" />
     <MESSAGE value="List遍历时修改元素的问题，用ListIterator迭代器而不是Iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="List遍历时修改元素的问题，用ListIterator迭代器而不是Iterator" />
+    <MESSAGE value="ListIterator的用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListIterator的用法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -367,37 +375,37 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578497577822">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578498225644">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578497577822" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578498149044">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578498225644" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578500225329">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578498149044" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578500225329" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578495186289" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578498149042">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578500225327">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578498149042" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578500225327" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578495186285" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578498149041">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578500225324">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578498149041" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578500225324" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578495186281" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578498149043">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578500225328">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578498149043" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578500225328" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578495186287" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578421241122" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578495824908">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578498239936">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578495824908" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578498239936" />
   </component>
 </project>
