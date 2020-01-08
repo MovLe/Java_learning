@@ -41,8 +41,5 @@ public class DateTest {
         System.out.println("日期格式化方式1："+strTime1);
         System.out.println("日期格式化方式2："+strTime2);
 
-
-
-
     }
 }
