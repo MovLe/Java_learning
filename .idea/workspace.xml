@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/excption/IllegalNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/excption/RegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/excption/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/ArrayExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/ArrayMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/ArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,54 +61,55 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.RegisterTest">
+  <component name="RunManager" selected="Application.ArrayExchange">
+    <configuration name="ArrayExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.array.ArrayExchange" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.array.ArrayMax" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.array.ArrayTest" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.excption.RegisterTest" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.movle.java.excption.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.StaticClass" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="extendsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.extendsClass" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="overRideClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.overRideClass" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayExchange" />
+        <item itemvalue="Application.ArrayMax" />
+        <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.RegisterTest" />
         <item itemvalue="Application.superClassFile" />
-        <item itemvalue="Application.overRideClass" />
-        <item itemvalue="Application.extendsClass" />
-        <item itemvalue="Application.StaticClass" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,7 @@
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
       <workItem from="1578409587365" duration="8608000" />
-      <workItem from="1578450507684" duration="1462000" />
+      <workItem from="1578450507684" duration="4196000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578423023791</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="自定义异常">
+      <created>1578453664379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578453664379</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +253,8 @@
     <MESSAGE value="Java之继承" />
     <MESSAGE value="更改类注释信息" />
     <MESSAGE value="super" />
-    <option name="LAST_COMMIT_MESSAGE" value="super" />
+    <MESSAGE value="自定义异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义异常" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -268,37 +277,41 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="402" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1578422233253" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578423023605">
+    <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578457059395">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578423023605" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578453563013">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578453664014">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578424082763" />
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578453664014" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578458696695">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578458696695" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578453563013" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578453563011">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578458696694">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578424082762" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578458696694" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578453563011" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578453563010">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578458696693">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578424082761" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578458696693" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578453563010" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578453563012">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578458696694">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578424082762" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578458696694" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578453563012" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578421241122" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578423092058">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578454102862">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578423092058" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578454102862" />
   </component>
 </project>
