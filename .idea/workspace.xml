@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/basic/overRideClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/basic/superClassFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/excption/IllegalNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/excption/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/excption/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movle/java/basic/extendsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/basic/extendsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +63,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.superClassFile">
-    <configuration name="ObjectParms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.ObjectParms" />
+  <component name="RunManager" selected="Application.RegisterTest">
+    <configuration name="RegisterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.excption.RegisterTest" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movle.java.basic.*" />
+          <option name="PATTERN" value="com.movle.java.excption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegisterTest" />
         <item itemvalue="Application.superClassFile" />
         <item itemvalue="Application.overRideClass" />
         <item itemvalue="Application.extendsClass" />
         <item itemvalue="Application.StaticClass" />
-        <item itemvalue="Application.ObjectParms" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +163,8 @@
       <updated>1577691607152</updated>
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
-      <workItem from="1578409587365" duration="8100000" />
+      <workItem from="1578409587365" duration="8608000" />
+      <workItem from="1578450507684" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578421395422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="super">
+      <created>1578423023791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578423023791</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +244,8 @@
     <MESSAGE value="static作用之静态变量" />
     <MESSAGE value="Java之继承" />
     <MESSAGE value="更改类注释信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改类注释信息" />
+    <MESSAGE value="super" />
+    <option name="LAST_COMMIT_MESSAGE" value="super" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -252,41 +260,45 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1577695906260" />
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1578422409813">
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1578452318802">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1578422409813" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1578452318802" />
     <state x="402" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578422233253">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="402" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1578422233253" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578421395162">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578423023605">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578421395162" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578422973809">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578423023605" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578453563013">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578422973809" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578422973806">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578424082763" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578453563013" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578453563011">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578422973806" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578422973805">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578424082762" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578453563011" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578453563010">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578422973805" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578422973808">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578424082761" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578453563010" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578453563012">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578422973808" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578424082762" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578453563012" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578421241122" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578421408956">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578423092058">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578421408956" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578423092058" />
   </component>
 </project>
