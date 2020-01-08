@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/ArrayExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/ArrayMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/TwoArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.ArrayExchange">
+  <component name="RunManager" selected="Application.TwoArray">
     <configuration name="ArrayExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.array.ArrayExchange" />
       <module name="Java_learning" />
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="superClassFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.basic.superClassFile" />
+    <configuration name="TwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.array.TwoArray" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movle.java.basic.*" />
+          <option name="PATTERN" value="com.movle.java.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoArray" />
         <item itemvalue="Application.ArrayExchange" />
         <item itemvalue="Application.ArrayMax" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.RegisterTest" />
-        <item itemvalue="Application.superClassFile" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,7 @@
       <workItem from="1577691609206" duration="1283000" />
       <workItem from="1577693708739" duration="3753000" />
       <workItem from="1578409587365" duration="8608000" />
-      <workItem from="1578450507684" duration="4196000" />
+      <workItem from="1578450507684" duration="5045000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578453664379</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="数组">
+      <created>1578458740385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458740385</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +259,8 @@
     <MESSAGE value="更改类注释信息" />
     <MESSAGE value="super" />
     <MESSAGE value="自定义异常" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义异常" />
+    <MESSAGE value="数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -281,37 +287,37 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578453664014">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578458740071">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578453664014" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578458696695">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578458740071" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578459679529">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578458696695" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578459679529" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578453563013" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578458696694">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578459679526">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578458696694" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578459679526" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578453563011" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578458696693">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578459679526">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578458696693" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578459679526" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578453563010" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578458696694">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578459679528">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578458696694" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578459679528" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578453563012" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578421241122" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578454102862">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578458751484">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578454102862" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578458751484" />
   </component>
 </project>
