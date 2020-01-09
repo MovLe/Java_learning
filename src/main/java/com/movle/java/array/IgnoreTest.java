@@ -13,6 +13,6 @@ package com.movle.java.array;
 public class IgnoreTest {
 
     public static void main(String[] args) {
-        System.out.println("ignore Text2");
+        System.out.println("ignore Text3");
     }
 }
