@@ -171,6 +171,7 @@
       <workItem from="1578533598995" duration="9783000" />
       <workItem from="1578553866422" duration="8328000" />
       <workItem from="1578585791063" duration="202000" />
+      <workItem from="1578586063336" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -410,14 +411,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578563967757</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="添加git ignore">
+      <created>1578586110846</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1578586110846</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="自定义异常" />
     <MESSAGE value="数组" />
     <MESSAGE value="二维数组" />
     <MESSAGE value="数组之酒店预定系统" />
@@ -442,7 +449,8 @@
     <MESSAGE value="创建线程的三种方式" />
     <MESSAGE value="匿名内部类创建线程，以及Lambda表达式创建线程" />
     <MESSAGE value="获取线程对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取线程对象" />
+    <MESSAGE value="添加git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加git ignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578565838882">
@@ -473,10 +481,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578563967570">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578586110338">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578563967570" />
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578586110338" />
     <state width="619" height="131" key="GridCell.Tab.0.bottom" timestamp="1578565920251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -502,10 +510,10 @@
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578585747619" />
     <state x="141" y="39" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578553767911" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578563989220">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578586636592">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578563989220" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578586636592" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578542385001">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
