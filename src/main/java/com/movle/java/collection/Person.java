@@ -1,6 +1,7 @@
 package com.movle.java.collection;
 
 
+import java.util.Objects;
 
 /**
  * @ClassName Person
@@ -63,5 +64,10 @@ public class Person {
             }
         }
         return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }
