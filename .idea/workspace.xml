@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/thread/ThreadTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/thread/ThreadTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/thread/ThreadTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/thread/ThreadTest04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,22 +65,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ThreadTest03">
+  <component name="RunManager" selected="Application.ThreadTest04">
     <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movle.java.io.FileCopy" />
-      <module name="Java_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movle.java.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.io.IoTest01" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.thread.ThreadTest04" />
+      <module name="Java_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movle.java.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTest04" />
         <item itemvalue="Application.ThreadTest03" />
         <item itemvalue="Application.ThreadTest02" />
         <item itemvalue="Application.ThreadTest01" />
         <item itemvalue="Application.FileCopy" />
-        <item itemvalue="Application.IoTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +168,7 @@
       <workItem from="1578409587365" duration="8608000" />
       <workItem from="1578450507684" duration="27616000" />
       <workItem from="1578533598995" duration="9783000" />
-      <workItem from="1578553866422" duration="5417000" />
+      <workItem from="1578553866422" duration="6026000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -389,14 +387,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578556977824</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="创建线程的三种方式">
+      <created>1578562541664</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1578562541664</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java之继承" />
     <MESSAGE value="更改类注释信息" />
     <MESSAGE value="super" />
     <MESSAGE value="自定义异常" />
@@ -421,7 +425,8 @@
     <MESSAGE value="Lambda表达式" />
     <MESSAGE value="IO之读取文件和写入文件" />
     <MESSAGE value="IO之利勇IO流拷贝，利用缓冲流拷贝" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO之利勇IO流拷贝，利用缓冲流拷贝" />
+    <MESSAGE value="创建线程的三种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建线程的三种方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -452,39 +457,39 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578556977395">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578562541475">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578556977395" />
-    <state width="1238" height="43" key="GridCell.Tab.0.bottom" timestamp="1578562495062">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578562541475" />
+    <state width="1238" height="112" key="GridCell.Tab.0.bottom" timestamp="1578563036321">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="43" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578562495062" />
+    <state width="1238" height="112" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578563036321" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578542487301" />
-    <state width="1238" height="43" key="GridCell.Tab.0.center" timestamp="1578562495060">
+    <state width="1238" height="112" key="GridCell.Tab.0.center" timestamp="1578563036320">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="43" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578562495060" />
+    <state width="1238" height="112" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578563036320" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578542487300" />
-    <state width="1238" height="43" key="GridCell.Tab.0.left" timestamp="1578562495060">
+    <state width="1238" height="112" key="GridCell.Tab.0.left" timestamp="1578563036319">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="43" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578562495059" />
+    <state width="1238" height="112" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578563036319" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578542487299" />
-    <state width="1238" height="43" key="GridCell.Tab.0.right" timestamp="1578562495061">
+    <state width="1238" height="112" key="GridCell.Tab.0.right" timestamp="1578563036320">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="43" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578562495061" />
+    <state width="1238" height="112" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578563036320" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578542487301" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578553825106">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578553825106" />
     <state x="141" y="39" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578553767911" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578556986302">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578562546996">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578556986302" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578562546996" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578542385001">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
