@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/MapTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/CollectionsClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/LinkedHashSetTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/collection/LinkedHashSetTest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +62,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MapTest01">
-    <configuration name="HashSetTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.HashSetTest01" />
+  <component name="RunManager" selected="Application.CollectionsClass">
+    <configuration name="CollectionsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.collection.CollectionsClass" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsClass" />
         <item itemvalue="Application.MapTest01" />
         <item itemvalue="Application.LinkedHashSetTest01" />
         <item itemvalue="Application.HashSetTest03" />
         <item itemvalue="Application.HashSetTest02" />
-        <item itemvalue="Application.HashSetTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +164,7 @@
       <workItem from="1577693708739" duration="3753000" />
       <workItem from="1578409587365" duration="8608000" />
       <workItem from="1578450507684" duration="27616000" />
-      <workItem from="1578533598995" duration="7744000" />
+      <workItem from="1578533598995" duration="8483000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -349,14 +348,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578540382968</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="map的相关知识">
+      <created>1578544907071</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578544907071</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="char转义字符" />
     <MESSAGE value="增加注释模版" />
     <MESSAGE value="JAVA对象，类" />
     <MESSAGE value="Java值传递之引用数据类型传递" />
@@ -381,7 +386,8 @@
     <MESSAGE value="可变参数" />
     <MESSAGE value="数组与集合之间的转换" />
     <MESSAGE value="HashSet和LinkedHashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashSet和LinkedHashSet" />
+    <MESSAGE value="map的相关知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="map的相关知识" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578415743379">
@@ -408,38 +414,38 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578540382497">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578544906681">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578540382497" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578544853815">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578544906681" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1578550661076">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578544853815" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578550661076" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578542487301" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578544853814">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1578550661074">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578544853814" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578550661074" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578542487300" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578544853813">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1578550661073">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578544853813" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578550661073" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578542487299" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578544853815">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1578550661075">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578544853815" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578550661075" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578542487301" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1578421241122">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578421241122" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578503975485">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578544915632">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578503975485" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578544915632" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578542385001">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
