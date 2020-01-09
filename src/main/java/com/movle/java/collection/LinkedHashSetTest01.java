@@ -42,7 +42,6 @@ public class LinkedHashSetTest01 {
 
         System.out.println("去重后的list集合"+list);
 
-
     }
 }
 
