@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b899147b-fa78-4ba0-8195-c10b72112cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/thread/TimeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/movle/java/array/IgnoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,19 +59,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TimeTask">
-    <configuration name="ThreadObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.thread.ThreadObject" />
+  <component name="RunManager" selected="Application.IgnoreTest">
+    <configuration name="IgnoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.array.IgnoreTest" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movle.java.thread.*" />
+          <option name="PATTERN" value="com.movle.java.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movle.java.thread.ThreadTest02" />
+    <configuration name="ThreadObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movle.java.thread.ThreadObject" />
       <module name="Java_learning" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IgnoreTest" />
         <item itemvalue="Application.TimeTask" />
         <item itemvalue="Application.ThreadObject" />
         <item itemvalue="Application.ThreadTest04" />
         <item itemvalue="Application.ThreadTest03" />
-        <item itemvalue="Application.ThreadTest02" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +176,7 @@
       <workItem from="1578533598995" duration="9783000" />
       <workItem from="1578553866422" duration="8328000" />
       <workItem from="1578585791063" duration="202000" />
-      <workItem from="1578586063336" duration="857000" />
+      <workItem from="1578586063336" duration="2652000" />
     </task>
     <task id="LOCAL-00001" summary="Java第一个程序Hello，char">
       <created>1577693808282</created>
@@ -418,14 +423,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578586110846</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Timer">
+      <created>1578587024053</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1578587024053</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组" />
     <MESSAGE value="二维数组" />
     <MESSAGE value="数组之酒店预定系统" />
     <MESSAGE value="增加注释解释酒店系统" />
@@ -450,7 +461,8 @@
     <MESSAGE value="匿名内部类创建线程，以及Lambda表达式创建线程" />
     <MESSAGE value="获取线程对象" />
     <MESSAGE value="添加git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加git ignore" />
+    <MESSAGE value="Timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Timer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1578565838882">
@@ -481,10 +493,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1578457059395" />
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578586110338">
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2" timestamp="1578587023752">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578586110338" />
+    <state x="223" y="23" width="833" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1578587023752" />
     <state width="619" height="131" key="GridCell.Tab.0.bottom" timestamp="1578565920251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -510,13 +522,13 @@
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578585747619" />
     <state x="141" y="39" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578553767911" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578586636592">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578587035112">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578586636592" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578542385001">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1578587035112" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578588861443">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1578542385001" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1578588861443" />
   </component>
 </project>
