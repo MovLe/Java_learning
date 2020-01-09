@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @ClassName LambdaTest01
- * @MethodDesc: TODO LambdaTest01功能介绍
+ * @MethodDesc: TODO Lambda表达式
  * @Author Movle
  * @Date 1/9/20 2:54 下午
  * @Version 1.0
