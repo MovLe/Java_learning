@@ -36,13 +36,11 @@ public class HotelCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         System.out.println("欢迎入住本酒店，酒店房间信息如下：");
 
         Hotel hotel=new Hotel();
 
         hotel.print();
-
 
         while(true){
             System.out.println("若您有什么需求，请输入对应的数字：\n1.预定房间   2.退房");
@@ -73,7 +71,5 @@ public class HotelCheck {
         }
 
     }
-
-
 
 }

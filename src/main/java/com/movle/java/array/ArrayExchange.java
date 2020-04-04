@@ -39,8 +39,6 @@ public class ArrayExchange {
             int mid=num[i];
             num[i]=num[num.length-1-i];
             num[num.length-1-i]=mid;
-
-
         }
     }
 }

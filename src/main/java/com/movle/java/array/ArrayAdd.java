@@ -15,13 +15,10 @@ public class ArrayAdd {
         int[] src={1,3,5,7,9};
         int[] target={2,4,6,8,10,12,14};
 
-
         System.out.println("拷贝前数组：");
         for(int i=0;i<src.length;i++){
             System.out.println(src[i]);
         }
-
-
 
         /*
             第一个参数：Object src 源数组

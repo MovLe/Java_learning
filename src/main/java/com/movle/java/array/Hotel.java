@@ -12,11 +12,7 @@ package com.movle.java.array;
 
 public class Hotel {
 
-
-
     private Room[][] rooms;
-
-
 
     Hotel(){
 
@@ -26,8 +22,6 @@ public class Hotel {
         //初始化每个房间
         for(int i=0;i<rooms.length;i++){
             for(int j=0;j<rooms[i].length;j++){
-
-
 
                 if(i==0|i==1){
                     rooms[i][j]=new Room(((i+1)*100)+j+1+"","标准间",false);
@@ -39,7 +33,6 @@ public class Hotel {
 
             }
         }
-
 
     }
 
@@ -54,7 +47,6 @@ public class Hotel {
 
     }
 
-
     public void checkIn(String id){
         for(int i=0;i<rooms.length;i++){
             for(int j=0;j<rooms[i].length;j++){
@@ -65,9 +57,6 @@ public class Hotel {
                     System.out.println(rooms[i][j].getId()+"房间状态"+rooms[i][j].getIsHold());
                     return;
                 }
-
-
-
 
             }
         }
@@ -81,11 +70,7 @@ public class Hotel {
                     rooms[i][j].setIsHold(false);
                     return;
                 }
-
-
             }
         }
     }
-
-
 }

@@ -27,7 +27,6 @@ public class ArrayMax {
                 max=num[i];
             }
         }
-
         return max;
     }
 }
