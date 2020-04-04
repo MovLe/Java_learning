@@ -36,7 +36,5 @@ public class LambdaTest01 {
         System.out.println("--Java 8新增方法引用，方法引用由::双冒号操作符标示--");
         list.forEach(System.out::println);
 
-
-
     }
 }
