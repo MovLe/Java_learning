@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 /**
  * @ClassName IteratorAPI
- * @MethodDesc: Iterator迭代器的常用方法
+ * @MethodDesc: Iterator迭代器的常用方法以及增强for循环遍历集合
  *      常用方法
  * 	        boolean hasNext()   //如果仍有元素可以迭代，则返回true判断集合是否还有元素
  * 	        E next()			//返回迭代的下一个元素，取出集合中的下一个元素
@@ -26,7 +26,24 @@ import java.util.Iterator;
 
 public class IteratorAPI {
     public static void main(String[] args) {
-        demo1();
+        //demo1();
+        demo2();
+    }
+
+    /**
+     * 使用增强for循环遍历集合
+     */
+    private static void demo2() {
+        Collection<String> coll = new ArrayList<>();
+        coll.add("科比");
+        coll.add("詹姆斯");
+        coll.add("杜兰特");
+        coll.add("库里");
+        coll.add("乔丹");
+
+        for(String s:coll){
+            System.out.println(s);
+        }
     }
 
     /**
@@ -46,7 +63,6 @@ public class IteratorAPI {
            String e = it.next();
             System.out.println("我最爱的球星有："+e);
         }
-
-
     }
+
 }
