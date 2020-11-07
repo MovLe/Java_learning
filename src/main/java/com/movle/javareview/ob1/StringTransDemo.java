@@ -3,7 +3,22 @@ package com.movle.javareview.ob1;
 /**
  * @ClassName StringTransDemo
  * @MethodDesc: 字符串与基本数据类型的相互转换
- *
+ *      (1)基本数据类型转换为字符串
+ *          a.基本类型数据与“”相连接即可
+ *              String s1=100+"";
+ *              String s2=28.02+"";
+ *          b.使用包装类中的静态方法
+ *              static String toString(int i)       //返回一个指定整数的String对象
+ *          c.使用String类中的静态方法
+ *              static String valueOf(int i)        //返回int参数的字符串表示形式
+ *      (2)String类型转换为对应的基本类型：使用包装类的静态方法parseXX("字符串")方法
+ *          public static byte parseByte(String s)     //将字符串转换为对应的byte基本类型
+ *          public static byte parseShort(String s)     //将字符串转换为对应的Short基本类型
+ *          public static byte parseInt(String s)     //将字符串转换为对应的int基本类型
+ *          public static byte parseLong(String s)     //将字符串转换为对应的long基本类型
+ *          public static byte parseFloat(String s)     //将字符串转换为对应的float基本类型
+ *          public static byte parseDouble(String s)     //将字符串转换为对应的double基本类型
+ *          public static byte parseBoolean(String s)     //将字符串转换为对应的boolean基本类型
  * @Author Movle
  * @Date 11/7/20 5:03 下午
  * @Version 1.0
