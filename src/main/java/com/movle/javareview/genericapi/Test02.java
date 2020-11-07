@@ -43,9 +43,9 @@ public class Test02 {
         print(list2);
     }
 
+
     /**
      * 泛型通配符的使用
-     * @param list
      */
     private static void print(ArrayList<?> list){
         for (Object o : list) {
