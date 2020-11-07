@@ -13,12 +13,12 @@ package com.movle.javareview.objectAPI;
  *              static String valueOf(int i)        //返回int参数的字符串表示形式
  *      (2)String类型转换为对应的基本类型：使用包装类的静态方法parseXX("字符串")方法
  *          public static byte parseByte(String s)     //将字符串转换为对应的byte基本类型
- *          public static byte parseShort(String s)     //将字符串转换为对应的Short基本类型
- *          public static byte parseInt(String s)     //将字符串转换为对应的int基本类型
- *          public static byte parseLong(String s)     //将字符串转换为对应的long基本类型
- *          public static byte parseFloat(String s)     //将字符串转换为对应的float基本类型
- *          public static byte parseDouble(String s)     //将字符串转换为对应的double基本类型
- *          public static byte parseBoolean(String s)     //将字符串转换为对应的boolean基本类型
+ *          public static short parseShort(String s)     //将字符串转换为对应的Short基本类型
+ *          public static int parseInt(String s)     //将字符串转换为对应的int基本类型
+ *          public static long parseLong(String s)     //将字符串转换为对应的long基本类型
+ *          public static float parseFloat(String s)     //将字符串转换为对应的float基本类型
+ *          public static double parseDouble(String s)     //将字符串转换为对应的double基本类型
+ *          public static boolean parseBoolean(String s)     //将字符串转换为对应的boolean基本类型
  * @Author Movle
  * @Date 11/7/20 5:03 下午
  * @Version 1.0
