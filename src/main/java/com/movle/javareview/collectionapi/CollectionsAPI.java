@@ -2,6 +2,7 @@ package com.movle.javareview.collectionapi;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * @ClassName CollectionsAPI
@@ -19,6 +20,12 @@ import java.util.Collections;
  *          (2)Comparable接口的排序规则：
  *              自己(this)-参数  ：升序
  *              参数-自己(this)：降序
+ *          (3)Comparator和Comparable的区别
+ *              Comparable:自己(this)和别人(参数)比较，自己需要实现Comparable接口，重写比较的规则compareTo方法
+ *              Comparator:相当于找一个第三方的裁判，比较两个对象
+ *          (4)Comparator的排序规则：
+ *              o1-o2：生序
+ *              o2-o1：降序
  * @Author Movle
  * @Date 11/7/20 11:19 下午
  * @Version 1.0
@@ -30,7 +37,56 @@ public class CollectionsAPI {
     public static void main(String[] args) {
         //demo01();
         //demo02();
-        demo03();
+        //demo03();
+        demo04();
+    }
+
+    /**
+     * Collections工具类之sort排序另一种方法
+     */
+    private static void demo04() {
+        ArrayList<Integer> Lisa = new ArrayList<>();
+        Lisa.add(1);
+        Lisa.add(4);
+        Lisa.add(2);
+        Lisa.add(3);
+        Lisa.add(9);
+        Lisa.add(8);
+        System.out.println("排序前：lisa"+Lisa);
+
+        Collections.sort(Lisa, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                //生序
+                //return o1-o2;
+
+                //降序
+                return o2-o1;
+            }
+        });
+        System.out.println("排序后：lisa"+Lisa);
+
+        ArrayList<Student> stu = new ArrayList<>();
+        stu.add(new Student("迪丽热巴",18));
+        stu.add(new Student("古力娜扎",20));
+        stu.add(new Student("胡歌",17));
+        stu.add(new Student("胡歌",18));
+        System.out.println("排序前的stu:"+stu);
+
+        Collections.sort(stu, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                int result = o1.getAge()-o2.getAge();
+                if(result==0){
+                    result = o1.getName().charAt(0)-o2.getName().charAt(0);
+                }
+                return result;
+            }
+        });
+        System.out.println("排序前后stu:"+stu);
+
+
+
     }
 
     /**
