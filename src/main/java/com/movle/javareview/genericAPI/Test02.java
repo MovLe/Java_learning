@@ -19,6 +19,7 @@ public class Test02 {
 
     private static void demo1() {
 
+        System.out.println("========泛型通配符=======");
         ArrayList<String> list1 = new ArrayList<>();
         list1.add("hello");
         list1.add("world");
@@ -33,6 +34,10 @@ public class Test02 {
         print(list2);
     }
 
+    /**
+     * 泛型通配符的使用
+     * @param list
+     */
     private static void print(ArrayList<?> list){
         for (Object o : list) {
             System.out.println(o);
