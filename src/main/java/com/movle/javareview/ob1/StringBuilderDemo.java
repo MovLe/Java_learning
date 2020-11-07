@@ -4,6 +4,8 @@ package com.movle.javareview.ob1;
  * @ClassName StringBuilderDemo
  * @MethodDesc: StringBuilder常用的方法
  *      append():添加内容，可以是int,char,String,double
+ *      reverse():反转StringBuilder中的字符串
+ *      toString():将StringBuiler类型转换为String类型
  * @Author Movle
  * @Date 11/7/20 4:14 下午
  * @Version 1.0
