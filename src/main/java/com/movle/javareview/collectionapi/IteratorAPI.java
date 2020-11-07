@@ -1,4 +1,4 @@
-package com.movle.javareview.collectionAPI;
+package com.movle.javareview.collectionapi;
 
 import java.util.ArrayList;
 import java.util.Collection;

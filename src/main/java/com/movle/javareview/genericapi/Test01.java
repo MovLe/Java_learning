@@ -1,4 +1,4 @@
-package com.movle.javareview.genericAPI;
+package com.movle.javareview.genericapi;
 
 /**
  * @ClassName Test01

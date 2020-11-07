@@ -1,4 +1,4 @@
-package com.movle.javareview.objectAPI;
+package com.movle.javareview.objectapi;
 
 import java.util.Arrays;
 
