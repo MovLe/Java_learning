@@ -1,5 +1,7 @@
 package com.movle.javareview.ob1;
 
+import java.util.Arrays;
+
 /**
  * @ClassName SyetemDemo
  * @MethodDesc:  Syetem类的常用方法
@@ -29,26 +31,15 @@ public class SyetemDemo {
         int srcPos = 0;
         int destPos= 0;
         int Length=3;
-        System.out.println("拷贝前的数组");
-        for (int i = 0; i <src.length ; i++) {
-            System.out.print(src[i]+" ");
-        }
-        System.out.println();
-        for (int j = 0; j <dest.length; j++) {
-            System.out.print(dest[j]+" ");
-        }
+
+        System.out.println("拷贝前的src数组"+ Arrays.toString(src));
+
+        System.out.println("拷贝前的dest数组"+ Arrays.toString(dest));
 
         System.arraycopy(src,srcPos,dest,destPos,Length);
 
-        System.out.println();
-        System.out.println("拷贝后的数组");
-        for (int k = 0;  k<src.length ; k++) {
-            System.out.print(src[k]+" ");
-        }
-        System.out.println();
-        for (int j = 0; j <dest.length; j++) {
-            System.out.print(dest[j]+" ");
-        }
+        System.out.println("拷贝后的dest数组"+ Arrays.toString(dest));
+
 
     }
 
