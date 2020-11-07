@@ -6,6 +6,13 @@ import java.util.Collection;
 /**
  * @ClassName CollectionRegularAPI
  * @MethodDesc: Collection集合的通用方法
+ *      boolean add(E e);       //向集合中添加元素
+ *      boolean remove(E e);	//删除集合中的某个元素
+ *      void clear();  			//清空集合中的所有元素
+ *      boolean contains(E e);  //判断集合中是否包含某个元素
+ *      boolean isEmpty();		//判断集合是否为空
+ *      int size();				//获取集合的长度
+ *      Object[] toArray();		//将集合转换为一个数组
  * @Author Movle
  * @Date 11/7/20 5:30 下午
  * @Version 1.0
