@@ -2,7 +2,7 @@ package com.movle.javareview.genericAPI;
 
 /**
  * @ClassName MyClass
- * @MethodDesc: TODO MyClass功能介绍
+ * @MethodDesc: 泛型类
  * @Author Movle
  * @Date 11/7/20 7:21 下午
  * @Version 1.0

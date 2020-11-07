@@ -2,7 +2,7 @@ package com.movle.javareview.genericAPI;
 
 /**
  * @ClassName MyInterImpl
- * @MethodDesc: TODO MyInterImpl功能介绍
+ * @MethodDesc: 泛型接口实现
  * @Author Movle
  * @Date 11/7/20 7:25 下午
  * @Version 1.0
