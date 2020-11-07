@@ -23,7 +23,7 @@ public class addForTest01 {
         list.add("c");
         list.add("d");
 
-        for(String s:list){
+        for (String s : list) {
             System.out.println(s);
         }
 
