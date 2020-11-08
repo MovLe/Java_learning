@@ -20,8 +20,10 @@ package com.movle.javareview.threadapi.demo10waitandnotify;
  */
 public class WaitAndNotifyAllDemo {
     public static void main(String[] args) {
+        //创建锁对象，保证唯一
         Object obj = new Object();
 
+        //消费者
         new Thread(){
             @Override
             public void run() {
@@ -34,12 +36,14 @@ public class WaitAndNotifyAllDemo {
                             e.printStackTrace();
                         }
 
+                        //唤醒之后执行的代码
                         System.out.println("包子已经做好类，开吃");
                         System.out.println("==============================");
                     }
                 }
             }
         }.start();
+        //消费者
         new Thread(){
             @Override
             public void run() {
@@ -51,7 +55,7 @@ public class WaitAndNotifyAllDemo {
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
-
+                        //唤醒之后执行的代码
                         System.out.println("包子已经做好类，开吃");
                         System.out.println("==============================");
                     }
@@ -59,6 +63,7 @@ public class WaitAndNotifyAllDemo {
             }
         }.start();
 
+        //生产者
         new Thread(){
             @Override
             public void run() {
