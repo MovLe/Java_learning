@@ -19,7 +19,8 @@ public class ThrowsDemo {
     }
 
     private static void readFile(String filename) throws FileNotFoundException {
-        if(!filename.equals("/User/macbook/TestInfo")){
+        String path="/User/macbook/TestInfo";
+        if(!path.equals(filename)){
             throw new FileNotFoundException("传递的文件路径不正确");
         }
         System.out.println("文件路径正确");
