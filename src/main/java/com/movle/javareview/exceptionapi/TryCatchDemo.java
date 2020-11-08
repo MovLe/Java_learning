@@ -19,8 +19,11 @@ public class TryCatchDemo {
         try {
             readFile("/User/a.tx");
         } catch (IOException e) {
+
+            System.out.println("getMassage:"+e.getMessage());
+            System.out.println("toString:"+e.toString());
+            System.out.println("e.printStackTrace():");
             e.printStackTrace();
-            System.out.println("文件后缀名不是.txt");
         }
         System.out.println("后续代码");
     }
