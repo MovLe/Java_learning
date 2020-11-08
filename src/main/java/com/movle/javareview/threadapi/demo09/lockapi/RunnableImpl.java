@@ -31,13 +31,16 @@ import java.util.concurrent.locks.ReentrantLock;
         3.在可能会出现安全问题的代码后调用Lock接口中的方法unlock释放锁
  */
 public class RunnableImpl implements Runnable {
+
     private int ticket = 100;
 
+    //1.在成员位置创建一个ReentrantLock对象
     Lock l = new ReentrantLock();
 
     @Override
     public void run() {
         while(true){
+            //2.在可能会出现安全问题的代码前调用Lock接口中的方法lock获取锁
             l.lock();
             if(ticket>0){
                 try {
@@ -47,10 +50,30 @@ public class RunnableImpl implements Runnable {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }finally {
+                    //3.在可能会出现安全问题的代码后调用Lock接口中的方法unlock释放锁
                     l.unlock();
                 }
             }
 
         }
     }
+//    @Override
+//    public void run() {
+//        while(true){
+//            //2.在可能会出现安全问题的代码前调用Lock接口中的方法lock获取锁
+//            l.lock();
+//            if(ticket>0){
+//                try {
+//                    Thread.sleep(10);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//                System.out.println(Thread.currentThread().getName()+"-->正在卖第"+ticket+"张票");
+//                ticket--;
+//
+//            }
+//            //3.在可能会出现安全问题的代码后调用Lock接口中的方法unlock释放锁
+//            l.unlock();
+//        }
+//    }
 }
