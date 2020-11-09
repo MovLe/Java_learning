@@ -31,7 +31,7 @@ public class Demo03Lambda {
         //优化省略Lambda
         invokeCook(()-> System.out.println("做饭2"));
     }
-    //定义一个方法,参数传递Cook接口,方法内部调用Cook接口中的方法makeFood
+    /**定义一个方法,参数传递Cook接口,方法内部调用Cook接口中的方法makeFood*/
     public static void invokeCook(Cook cook){
         cook.makeFood();
     }

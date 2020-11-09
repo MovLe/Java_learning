@@ -2,6 +2,7 @@ package com.movle.javareview.lambdaapi.demo02;
 
 /**
     定一个厨子Cook接口，内含唯一的抽象方法makeFood
+ * @author macbook
  */
 public interface Cook {
 
