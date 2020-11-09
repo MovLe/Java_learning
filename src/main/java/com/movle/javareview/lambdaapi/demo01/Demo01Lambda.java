@@ -2,7 +2,7 @@ package com.movle.javareview.lambdaapi.demo01;
 
 /**
  * @ClassName Lambda01Demo
- * @MethodDesc: 使用lambda表达式简化代码
+ * @MethodDesc: 使用匿名内部类简化代码
  * @Author Movle
  * @Date 11/9/20 7:49 上午
  * @Version 1.0
@@ -10,7 +10,7 @@ package com.movle.javareview.lambdaapi.demo01;
  **/
 
 
-public class Lambda01Demo {
+public class Demo01Lambda {
     public static void main(String[] args) {
         //创建Runnable接口的实现类对象
         RunnableImpl run = new RunnableImpl();
