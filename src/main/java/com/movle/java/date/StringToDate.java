@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  * @ClassName StringToDate
- * @MethodDesc: TODO StringToDate功能介绍
+ * @MethodDesc: StringToDate功能介绍
  * @Author Movle
  * @Date 1/8/20 6:16 下午
  * @Version 1.0

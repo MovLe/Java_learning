@@ -2,7 +2,7 @@ package com.movle.java.thread;
 
 /**
  * @ClassName ThreadTest04
- * @MethodDesc: TODO 匿名内部类创建线程，以及Lambda表达式创建线程
+ * @MethodDesc: 匿名内部类创建线程，以及Lambda表达式创建线程
  * @Author Movle
  * @Date 1/9/20 5:39 下午
  * @Version 1.0
