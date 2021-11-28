@@ -24,7 +24,6 @@ public class dateUtil {
         System.out.println("DateToString dateString:"+dateToString(date));
         String dateString = "2021-11-17 14:30:56";
         System.out.println("stringToDate date:"+stringToDate(dateString));
-
         System.out.println("randomTime sec:"+generateRandoTime(3,1));
         System.out.println("randomTime:"+generateRandoTime(3,2));
 
