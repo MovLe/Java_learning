@@ -19,7 +19,6 @@ import java.util.Random;
 public class dateUtil {
 
     public static void main(String[] args) {
-
         Date date = new Date();
         System.out.println("date:"+date);
         System.out.println("DateToString dateString:"+dateToString(date));
